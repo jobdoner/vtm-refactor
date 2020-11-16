@@ -1,0 +1,52 @@
+version: '3'
+volumes:
+  database_data:
+    driver: local
+services:
+  web:
+    build: .
+    image: app
+    ports:
+      - 8080:8080
+    links:
+      - db
+      - redis
+    networks:
+      - net
+    environment:
+      MIG: 0
+      SECRET: "notSecretAnymore"
+      PORT: 8080
+      URI: "postgres://postgres:postgres@db:5432/postgres?sslmode=disable"
+      REDISURI: "redis://:secret@redis:6379/0"
+
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - database_data:/var/lib/postgresql/data
+    networks:
+      - net
+    ports:
+      - 5439:5432
+    environment:
+      POSTGRES_HOST: 'db'
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+  redis:
+    image: redis
+    restart: always
+    volumes:
+      - database_data:/redis/data
+    command:
+      --requirepass secret
+    hostname: redis
+    networks:
+      - net
+    ports:
+      - 6379:6379
+
+networks:
+  net:

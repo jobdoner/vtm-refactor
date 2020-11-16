@@ -1,0 +1,641 @@
+/Apparel & Accessories/Activewear	80429
+/Apparel & Accessories/Costumes	80430
+/Apparel & Accessories/Formal Wear	80431
+/Apparel & Accessories/Formal Wear/Bridal Wear	80443
+/Apparel & Accessories	80428
+/Apparel & Accessories/Formal Wear/Suits & Business Attire	80444
+/Apparel & Accessories/Handbags	80432
+/Apparel & Accessories/Jewelry & Watches	80433
+/Apparel & Accessories/Jewelry & Watches/Fine Jewelry	80445
+/Apparel & Accessories/Jewelry & Watches/Watches	80447
+/Apparel & Accessories/Jewelry & Watches/Wedding & Engagement Rings	80446
+/Apparel & Accessories/Lingerie	80434
+/Apparel & Accessories/Luggage	80435
+/Apparel & Accessories/Men's Apparel	80436
+/Apparel & Accessories/Outerwear	80438
+/Apparel & Accessories/Perfumes & Fragrances	80437
+/Apparel & Accessories/Shoes	80439
+/Apparel & Accessories/Shoes/Athletic Shoes	80448
+/Apparel & Accessories/Shoes/Boots	80449
+/Apparel & Accessories/Shoes/Dress Shoes	80450
+/Apparel & Accessories/Swimwear	80440
+/Apparel & Accessories/Wallets, Briefcases & Leather Goods	80441
+/Apparel & Accessories/Women's Apparel	80442
+/Autos & Vehicles	80001
+/Autos & Vehicles/Auto Parts & Accessories	80468
+/Autos & Vehicles/Auto Parts & Accessories/Auto Exterior Parts & Accessories	80470
+/Autos & Vehicles/Auto Parts & Accessories/Auto Interior Parts & Accessories	80471
+/Autos & Vehicles/Auto Parts & Accessories/Automotive Electronic Components	80472
+/Autos & Vehicles/Auto Parts & Accessories/Car Batteries	80473
+/Autos & Vehicles/Auto Parts & Accessories/Car Brakes	80474
+/Autos & Vehicles/Auto Parts & Accessories/Engine & Transmission	80475
+/Autos & Vehicles/Auto Parts & Accessories/High Performance & Aftermarket Auto Parts	80476
+/Autos & Vehicles/Auto Parts & Accessories/Wheels & Tires	80477
+/Autos & Vehicles/Auto Repair & Maintenance	80469
+/Autos & Vehicles/Auto Repair & Maintenance/Brake Service & Repair	80479
+/Autos & Vehicles/Auto Repair & Maintenance/Collision & Auto Body Repair	80480
+/Autos & Vehicles/Auto Repair & Maintenance/Glass Repair & Replacement	80478
+/Autos & Vehicles/Auto Repair & Maintenance/Oil Changes	80481
+/Autos & Vehicles/Auto Repair & Maintenance/Transmission Repair	80482
+/Autos & Vehicles/Motor Vehicles	80206
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles (New)	80097
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles (Used)	80099
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand	80013
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Acura	80014
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Alfa Romeo	80093
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Audi	80015
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/BMW	80016
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Buick	80054
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Cadillac	80017
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Chevrolet	80018
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Chrysler	80019
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Citroën	80020
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Dodge	80021
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Fiat	80022
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Ford	80023
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/GMC	80024
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Honda	80025
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Hyundai	80026
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Infiniti	80080
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Isuzu	80081
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Jaguar	80057
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Jeep	80027
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Kia	80028
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Land Rover	80059
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Lexus	80029
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Lincoln	80030
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Maserati	80060
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Mazda	80031
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Mercedes-Benz	80032
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Mini	80061
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Mitsubishi	80034
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Nissan	80035
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Peugeot	80036
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Porsche	80038
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Ram Trucks	80693
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Renault	80039
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/SEAT	80094
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Scion	80063
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Subaru	80041
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Suzuki	80064
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Tesla Motors	80694
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Toyota	80042
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Vauxhall-Opel	80047
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Volkswagen	80043
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Brand/Volvo	80044
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type	80171
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Classic Vehicles	80049
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Compact Cars	80111
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Compact Cars/Compact Cars (New)	80172
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Compact Cars/Compact Cars (Used)	80112
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Convertibles	80102
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Convertibles/Convertibles (New)	80173
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Convertibles/Convertibles (Used)	80113
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Coupes	80103
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Coupes/Coupes (New)	80174
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Coupes/Coupes (Used)	80170
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Crossovers	80110
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Crossovers/Crossovers (New)	80175
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Crossovers/Crossovers (Used)	80114
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Diesel Vehicles	80104
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Diesel Vehicles/Diesel Vehicles (New)	80176
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Diesel Vehicles/Diesel Vehicles (Used)	80115
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Hatchbacks	80105
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Hatchbacks/Hatchbacks (New)	80177
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Hatchbacks/Hatchbacks (Used)	80116
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Hybrid & Alternative Vehicles	80012
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Hybrid & Alternative Vehicles/Hybrid & Alternative Vehicles (New)	80178
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Hybrid & Alternative Vehicles/Hybrid & Alternative Vehicles (Used)	80117
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Luxury Vehicles	80106
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Luxury Vehicles/Luxury Vehicles (New)	80179
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Luxury Vehicles/Luxury Vehicles (Used)	80118
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Microcars & Subcompacts	80079
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Microcars & Subcompacts/Microcars & Subcompacts (New)	80180
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Microcars & Subcompacts/Microcars & Subcompacts (Used)	80119
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Motorcycles	80006
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Motorcycles/Motorcycles (New)	80181
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Motorcycles/Motorcycles (Used)	80120
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Off-Road Vehicles	80004
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Off-Road Vehicles/Off-Road Vehicles (New)	80182
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Off-Road Vehicles/Off-Road Vehicles (Used)	80190
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Pickup Trucks	80050
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Pickup Trucks/Pickup Trucks (New)	80187
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Pickup Trucks/Pickup Trucks (Used)	80127
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/SUVs	80051
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/SUVs/SUVs (New)	80188
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/SUVs/SUVs (Used)	80128
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Scooters & Mopeds	80068
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Scooters & Mopeds/Scooters & Mopeds (New)	80183
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Scooters & Mopeds/Scooters & Mopeds (Used)	80121
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Sedans	80107
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Sedans/Sedans (New)	80184
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Sedans/Sedans (Used)	80122
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Sports Cars	80108
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Sports Cars/Sports Cars (New)	80185
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Sports Cars/Sports Cars (Used)	80123
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Station Wagons	80109
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Station Wagons/Station Wagons (New)	80186
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Station Wagons/Station Wagons (Used)	80124
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Vans & Minivans	80052
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Vans & Minivans/Vans & Minivans (New)	80189
+/Autos & Vehicles/Motor Vehicles/Motor Vehicles by Type/Vans & Minivans/Vans & Minivans (Used)	80129
+/Autos & Vehicles/Vehicles (Other)	80169
+/Autos & Vehicles/Vehicles (Other)/Bicycles & Accessories	80067
+/Autos & Vehicles/Vehicles (Other)/Boats & Watercraft	80065
+/Autos & Vehicles/Vehicles (Other)/Campers & RVs	80069
+/Autos & Vehicles/Vehicles (Other)/Commercial Vehicles	80070
+/Baby & Children's Products	80308
+/Baby & Children's Products/Baby & Children's Apparel	80309
+/Baby & Children's Products/Baby & Children's Apparel/Baby & Toddler Apparel	80316
+/Baby & Children's Products/Baby & Children's Apparel/Children's Apparel	80317
+/Baby & Children's Products/Child Car Seats	80312
+/Baby & Children's Products/Childcare & Education	80314
+/Baby & Children's Products/Childcare & Education/Childcare	80318
+/Baby & Children's Products/Childcare & Education/Early Childhood Education	80319
+/Baby & Children's Products/Diapers & Baby Hygiene Products	80310
+/Baby & Children's Products/Infant & Toddler Feeding	80315
+/Baby & Children's Products/Infant & Toddler Feeding/Infant Feeding Supplies	80320
+/Baby & Children's Products/Infant & Toddler Feeding/Toddler Meals	80321
+/Baby & Children's Products/Strollers & Baby Carriages	80313
+/Baby & Children's Products/Toys & Games	80311
+/Beauty Products & Services	80546
+/Beauty Products & Services/Bath & Body Products	80552
+/Beauty Products & Services/Hair Care Products	80551
+/Beauty Products & Services/Makeup & Cosmetics	80554
+/Beauty Products & Services/Skin Care Products	80555
+/Beauty Products & Services/Spas & Beauty Services	80556
+/Beauty Products & Services/Tanning & Sun Care Products	80553
+/Business Services	80463
+/Business Services/Advertising & Marketing Services	80517
+/Business Services/Advertising & Marketing Services/SEO & SEM Services	80529
+/Business Services/Business Financial Services	80518
+/Business Services/Business Printing & Document Services	80519
+/Business Services/Business Technology	80520
+/Business Services/Business Technology/Enterprise Software	80530
+/Business Services/Business Technology/Enterprise Software/CRM Solutions	80535
+/Business Services/Business Technology/Enterprise Software/Collaboration & Conferencing Tools	80534
+/Business Services/Business Technology/Enterprise Software/ERP Solutions	80536
+/Business Services/Business Technology/Enterprise Software/Helpdesk & Customer Support Solutions	80537
+/Business Services/Business Technology/Network Systems & Services	80531
+/Business Services/Business Technology/Network Systems & Services/Hosted Data & Cloud Storage	80538
+/Business Services/Business Technology/Network Systems & Services/Network & Enterprise Security	80539
+/Business Services/Business Technology/Network Systems & Services/Network Equipment & Virtualization	80540
+/Business Services/Business Technology/Network Systems & Services/Network Management	80541
+/Business Services/Business Technology/Web Services	80532
+/Business Services/Business Technology/Web Services/Domain Registration	80542
+/Business Services/Business Technology/Web Services/Web Design & Development	80543
+/Business Services/Business Technology/Web Services/Web Hosting	80544
+/Business Services/Corporate Event Planning	80521
+/Business Services/Office Supplies	80522
+/Business Services/Office Supplies/Office Furniture	80533
+/Business Services/Payment Processing & Merchant Services	80523
+/Business Services/Payroll Services	80524
+/Business Services/Staffing & Recruitment Services	80526
+/Computers & Peripherals	80193
+/Computers & Peripherals/Computer Accessories & Components	80195
+/Computers & Peripherals/Computer Accessories & Components/Computer Monitors	80200
+/Computers & Peripherals/Computer Accessories & Components/Memory & Storage	80201
+/Computers & Peripherals/Computers	80194
+/Computers & Peripherals/Computers/Desktop Computers	80197
+/Computers & Peripherals/Computers/Laptops & Notebooks	80198
+/Computers & Peripherals/Computers/Tablets & Ultraportable Devices	80199
+/Computers & Peripherals/Printers, Scanners & Faxes	80196
+/Consumer Electronics	80207
+/Consumer Electronics/Audio	80210
+/Consumer Electronics/Audio/Pro Musician & DJ Equipment	80220
+/Consumer Electronics/Audio/Speakers	80221
+/Consumer Electronics/Audio/Stereo Systems	80222
+/Consumer Electronics/Camcorders	80209
+/Consumer Electronics/Cameras	80208
+/Consumer Electronics/Cameras/Camera Lenses	80223
+/Consumer Electronics/Cameras/Digital SLRs	80224
+/Consumer Electronics/Game Consoles	80244
+/Consumer Electronics/Game Consoles/Nintendo Consoles	80245
+/Consumer Electronics/Game Consoles/Sony PlayStation	80246
+/Consumer Electronics/Game Consoles/Xbox	80247
+/Consumer Electronics/Home Theater Systems	80213
+/Consumer Electronics/Mobile Phones	80286
+/Consumer Electronics/Televisions	80211
+/Dating Services	80592
+/Education	80226
+/Education/Foreign Language Study	80227
+/Education/Post-Secondary Education	80228
+/Education/Post-Secondary Education/Arts & Design Education	80232
+/Education/Post-Secondary Education/Business Education	80233
+/Education/Post-Secondary Education/Cosmetology Education & Training	80285
+/Education/Post-Secondary Education/Technology Education	80235
+/Education/Primary & Secondary Schools (K-12)	80229
+/Education/Study Abroad Programs	80230
+/Education/Test Preparation & Tutoring	80231
+/Employment	80412
+/Employment/Accounting & Finance Jobs	80413
+/Employment/Career Consulting Services	80425
+/Employment/Clerical & Administrative Jobs	80414
+/Employment/Education Jobs	80415
+/Employment/Executive & Management Jobs	80416
+/Employment/Government & Public Sector Jobs	80417
+/Employment/Health & Medical Jobs	80418
+/Employment/IT & Technical Jobs	80419
+/Employment/Internships	80424
+/Employment/Legal Jobs	80420
+/Employment/Resumes & Portfolios	80426
+/Employment/Retail Jobs	80421
+/Employment/Sales & Marketing Jobs	80422
+/Employment/Temporary & Seasonal Jobs	80423
+/Event Tickets	80593
+/Event Tickets/Concert & Music Festival Tickets	80597
+/Event Tickets/Performing Arts Tickets	80595
+/Event Tickets/Performing Arts Tickets/Broadway & Theater Tickets	80596
+/Event Tickets/Sports Tickets	80598
+/Event Tickets/Sports Tickets/American Football Tickets	80599
+/Event Tickets/Sports Tickets/Baseball Tickets	80600
+/Event Tickets/Sports Tickets/Basketball Tickets	80601
+/Event Tickets/Sports Tickets/Hockey Tickets	80602
+/Event Tickets/Sports Tickets/Soccer Tickets	80603
+/Financial Services	80130
+/Financial Services/Banking Services	80132
+/Financial Services/Banking Services/Debit & Checking Services	80142
+/Financial Services/Banking Services/Savings Accounts	80409
+/Financial Services/Credit & Lending	80135
+/Financial Services/Credit & Lending/Auto Loans	80140
+/Financial Services/Credit & Lending/Business Loans	80138
+/Financial Services/Credit & Lending/Credit Cards	80141
+/Financial Services/Credit & Lending/Credit Reports & Monitoring Services	80410
+/Financial Services/Credit & Lending/Mortgage	80136
+/Financial Services/Credit & Lending/Mortgage/Home Equity Loans	80411
+/Financial Services/Credit & Lending/Mortgage/Home Purchase Loans	80153
+/Financial Services/Credit & Lending/Mortgage/Mortgage Refinancing	80152
+/Financial Services/Credit & Lending/Personal Loans	80139
+/Financial Services/Credit & Lending/Student Loans	80192
+/Financial Services/Financial Planning	80133
+/Financial Services/Financial Planning/Estate Planning	80150
+/Financial Services/Financial Planning/Retirement Planning	80151
+/Financial Services/Insurance	80134
+/Financial Services/Insurance/Auto Insurance	80143
+/Financial Services/Insurance/Health Insurance	80144
+/Financial Services/Insurance/Home Insurance	80191
+/Financial Services/Insurance/Life Insurance	80145
+/Financial Services/Insurance/Travel Insurance	80146
+/Financial Services/Investment Services	80149
+/Financial Services/Tax Services	80137
+/Gifts & Occasions	80464
+/Gifts & Occasions/Flowers	80507
+/Gifts & Occasions/Gift Baskets	80508
+/Gifts & Occasions/Holiday & Seasonal Items	80503
+/Gifts & Occasions/Holiday & Seasonal Items/Christmas Items & Decor	80509
+/Gifts & Occasions/Holiday & Seasonal Items/Halloween Items & Decor	80510
+/Gifts & Occasions/Holiday & Seasonal Items/Valentine's Day Items & Decor	80511
+/Gifts & Occasions/Party Supplies & Planning	80504
+/Gifts & Occasions/Party Supplies & Planning/Event Planning Services	80512
+/Gifts & Occasions/Party Supplies & Planning/Party Supplies	80513
+/Gifts & Occasions/Personalized Gifts	80505
+/Gifts & Occasions/Photo & Video Services	80506
+/Gifts & Occasions/Photo & Video Services/Event Photographers & Studios	80515
+/Gifts & Occasions/Photo & Video Services/Photo Printing Services	80516
+/Gifts & Occasions/Wedding Planning	80404
+/Home & Garden	80237
+/Home & Garden/Home & Garden Services	80483
+/Home & Garden/Home & Garden Services/Architectural Services	80484
+/Home & Garden/Home & Garden Services/Carpet Installation	80485
+/Home & Garden/Home & Garden Services/Door & Window Installation	80486
+/Home & Garden/Home & Garden Services/Electrician Services	80487
+/Home & Garden/Home & Garden Services/Flooring Services	80488
+/Home & Garden/Home & Garden Services/General Contracting & Remodeling Services	80490
+/Home & Garden/Home & Garden Services/Home Cleaning Services	80491
+/Home & Garden/Home & Garden Services/Home Inspection Services	80492
+/Home & Garden/Home & Garden Services/Interior Design & Decorating Services	80493
+/Home & Garden/Home & Garden Services/Landscape Design	80494
+/Home & Garden/Home & Garden Services/Locksmith Services	80496
+/Home & Garden/Home & Garden Services/Painting Services	80497
+/Home & Garden/Home & Garden Services/Pest Control Services	80498
+/Home & Garden/Home & Garden Services/Plumbing Services	80499
+/Home & Garden/Home & Garden Services/Roofing Services	80500
+/Home & Garden/Home Appliances	80238
+/Home & Garden/Home Appliances/Cooking Ranges & Stoves	80260
+/Home & Garden/Home Appliances/Dishwashers	80258
+/Home & Garden/Home Appliances/Microwaves	80262
+/Home & Garden/Home Appliances/Refrigerators	80259
+/Home & Garden/Home Appliances/Small Appliances	80265
+/Home & Garden/Home Appliances/Small Appliances/Coffee & Espresso Makers	80274
+/Home & Garden/Home Appliances/Small Appliances/Juicers & Blenders	80272
+/Home & Garden/Home Appliances/Small Appliances/Mixers	80273
+/Home & Garden/Home Appliances/Vacuums	80261
+/Home & Garden/Home Appliances/Washers & Dryers	80257
+/Home & Garden/Home Decor	80239
+/Home & Garden/Home Decor/Curtains & Window Treatments	80255
+/Home & Garden/Home Decor/Fireplaces	80256
+/Home & Garden/Home Decor/Lights & Fixtures	80275
+/Home & Garden/Home Decor/Rugs & Carpets	80254
+/Home & Garden/Home Furnishings	80240
+/Home & Garden/Home Furnishings/Bedroom	80250
+/Home & Garden/Home Furnishings/Home Office	80251
+/Home & Garden/Home Furnishings/Home Storage & Shelving	80502
+/Home & Garden/Home Furnishings/Kitchen & Dining Room	80249
+/Home & Garden/Home Furnishings/Living Room	80248
+/Home & Garden/Home Furnishings/Nursery	80252
+/Home & Garden/Home Improvement	80241
+/Home & Garden/Home Improvement/Flooring	80268
+/Home & Garden/Home Improvement/Kitchen & Bathroom Cabinets	80266
+/Home & Garden/Home Improvement/Kitchen & Bathroom Counters	80267
+/Home & Garden/Home Improvement/Paint	80270
+/Home & Garden/Home Improvement/Plumbing Fixtures	80269
+/Home & Garden/Home Improvement/Tools	80271
+/Home & Garden/Home Security	80242
+/Home & Garden/Outdoor Items	80501
+/Home & Garden/Outdoor Items/BBQs & Grills	80264
+/Home & Garden/Outdoor Items/Garden & Outdoor Furniture	80253
+/Home & Garden/Outdoor Items/Lawn Mowers	80263
+/Home & Garden/Outdoor Items/Pools & Spas	80243
+/Real Estate	80131
+/Real Estate/Commercial Properties	80204
+/Real Estate/Commercial Properties/Commercial Properties (For Rent)	80161
+/Real Estate/Commercial Properties/Commercial Properties (For Sale)	80158
+/Real Estate/Moving & Relocation	80403
+/Real Estate/Residential Properties	80205
+/Real Estate/Residential Properties/Residential Properties (For Rent)	80155
+/Real Estate/Residential Properties/Residential Properties (For Rent)/Apartments (For Rent)	80160
+/Real Estate/Residential Properties/Residential Properties (For Rent)/Houses (For Rent)	80159
+/Real Estate/Residential Properties/Residential Properties (For Sale)	80157
+/Real Estate/Residential Properties/Residential Properties (For Sale)/Apartments (For Sale)	80203
+/Real Estate/Residential Properties/Residential Properties (For Sale)/Apartments (For Sale)/New Apartments (For Sale)	80167
+/Real Estate/Residential Properties/Residential Properties (For Sale)/Apartments (For Sale)/Preowned Apartments (For Sale)	80165
+/Real Estate/Residential Properties/Residential Properties (For Sale)/Houses (For Sale)	80202
+/Real Estate/Residential Properties/Residential Properties (For Sale)/Houses (For Sale)/New Houses (For Sale)	80166
+/Real Estate/Residential Properties/Residential Properties (For Sale)/Houses (For Sale)/Preowned Houses (For Sale)	80164
+/Software	80276
+/Software/Antivirus & Security Software	80277
+/Software/Audio & Music Software	80278
+/Software/Business & Productivity Software	80279
+/Software/Design Software	80280
+/Software/Design Software/Drawing & Animation Software	80283
+/Software/Design Software/Photo Software	80284
+/Software/Tax & Accounting Software	80281
+/Software/Video Software	80282
+/Sports & Fitness	80545
+/Sports & Fitness/Fitness Products & Services	80548
+/Sports & Fitness/Fitness Products & Services/Exercise Equipment	80559
+/Sports & Fitness/Fitness Products & Services/Fitness Classes & Personal Training Services	80560
+/Sports & Fitness/Fitness Products & Services/Gyms & Athletic Clubs	80561
+/Sports & Fitness/Outdoor Recreational Equipment	80549
+/Sports & Fitness/Outdoor Recreational Equipment/Camping & Hiking Equipment	80562
+/Sports & Fitness/Outdoor Recreational Equipment/Fishing Equipment	80563
+/Sports & Fitness/Sporting Goods	80550
+/Sports & Fitness/Sporting Goods/Golf Equipment	80569
+/Sports & Fitness/Sporting Goods/Winter Sports Equipment & Accessories	80576
+/Telecom	80303
+/Telecom/Cable & Satellite TV Providers	80304
+/Telecom/Internet Service Providers	80305
+/Telecom/Mobile Phone Service Providers	80306
+/Travel	80287
+/Travel/Air Travel	80288
+/Travel/Air Travel/Air Travel by Class	80393
+/Travel/Air Travel/Air Travel by Class/Business & First Class	80397
+/Travel/Air Travel/Air Travel by Class/Economy Class	80398
+/Travel/Bus & Rail Travel	80604
+/Travel/Car Rental	80289
+/Travel/Car Rental/Economy, Compact & Mid-size Car Rental	80405
+/Travel/Car Rental/Full-size & Standard Car Rental	80406
+/Travel/Car Rental/Luxury, Convertible & Specialty Car Rental	80407
+/Travel/Car Rental/Minivan & SUV Rental	80408
+/Travel/Cruises	80290
+/Travel/Hotels & Accommodations	80291
+/Travel/Hotels & Accommodations/Hotels by Star Rating	80396
+/Travel/Hotels & Accommodations/Hotels by Star Rating/1 & 2 Star Hotels	80399
+/Travel/Hotels & Accommodations/Hotels by Star Rating/3 Star Hotels	80400
+/Travel/Hotels & Accommodations/Hotels by Star Rating/4 Star Hotels	80401
+/Travel/Hotels & Accommodations/Hotels by Star Rating/5 Star Hotels	80402
+/Travel/Hotels & Accommodations/Vacation Rentals	80465
+/Travel/Trips by Destination	80605
+/Travel/Trips by Destination/Trips to Asia-Pacific	80606
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Australia	80695
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Australia/Trips to Melbourne	80619
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Australia/Trips to Sydney	80626
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to China	80698
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to China/Trips to Beijing	80613
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to China/Trips to Shanghai	80624
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Hong Kong	80615
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to India	80616
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Indonesia	80712
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Indonesia/Trips to Bali	80611
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Japan	80715
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Japan/Trips to Fukuoka	80614
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Japan/Trips to Kyoto-Osaka-Kobe	80617
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Japan/Trips to Nagoya	80620
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Japan/Trips to Tokyo	80628
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Malaysia	80618
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to New Zealand	80621
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Seoul	80623
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Singapore	80625
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Taipei	80627
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Thailand	80722
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Thailand/Trips to Bangkok	80612
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to Vietnam	80629
+/Travel/Trips by Destination/Trips to Asia-Pacific/Trips to the Philippines	80622
+/Travel/Trips by Destination/Trips to Europe	80607
+/Travel/Trips by Destination/Trips to Europe/Trips to Amsterdam	80630
+/Travel/Trips by Destination/Trips to Europe/Trips to Croatia	80634
+/Travel/Trips by Destination/Trips to Europe/Trips to France	80730
+/Travel/Trips by Destination/Trips to Europe/Trips to France/Trips to Paris	80641
+/Travel/Trips by Destination/Trips to Europe/Trips to Germany	80736
+/Travel/Trips by Destination/Trips to Europe/Trips to Germany/Trips to Berlin	80632
+/Travel/Trips by Destination/Trips to Europe/Trips to Germany/Trips to Frankfurt	80635
+/Travel/Trips by Destination/Trips to Europe/Trips to Greece	80636
+/Travel/Trips by Destination/Trips to Europe/Trips to Ireland	80637
+/Travel/Trips by Destination/Trips to Europe/Trips to Italy	80747
+/Travel/Trips by Destination/Trips to Europe/Trips to Italy/Trips to Rome	80643
+/Travel/Trips by Destination/Trips to Europe/Trips to Moscow	80640
+/Travel/Trips by Destination/Trips to Europe/Trips to Prague	80642
+/Travel/Trips by Destination/Trips to Europe/Trips to Spain	80766
+/Travel/Trips by Destination/Trips to Europe/Trips to Spain/Trips to Barcelona	80631
+/Travel/Trips by Destination/Trips to Europe/Trips to Spain/Trips to Madrid	80639
+/Travel/Trips by Destination/Trips to Europe/Trips to Spain/Trips to the Canary Islands	80633
+/Travel/Trips by Destination/Trips to Europe/Trips to Turkey	80644
+/Travel/Trips by Destination/Trips to Europe/Trips to the UK	80781
+/Travel/Trips by Destination/Trips to Europe/Trips to the UK/Trips to London, UK	80638
+/Travel/Trips by Destination/Trips to Latin America	80608
+/Travel/Trips by Destination/Trips to Latin America/Trips to Brazil	80790
+/Travel/Trips by Destination/Trips to Latin America/Trips to Brazil/Trips to Rio de Janeiro	80649
+/Travel/Trips by Destination/Trips to Latin America/Trips to Brazil/Trips to São Paulo	80650
+/Travel/Trips by Destination/Trips to Latin America/Trips to Buenos Aires	80645
+/Travel/Trips by Destination/Trips to Latin America/Trips to Costa Rica	80647
+/Travel/Trips by Destination/Trips to Latin America/Trips to Mexico	80648
+/Travel/Trips by Destination/Trips to Latin America/Trips to the Caribbean	80646
+/Travel/Trips by Destination/Trips to North America	80610
+/Travel/Trips by Destination/Trips to North America/Trips to Canada	80819
+/Travel/Trips by Destination/Trips to North America/Trips to Canada/Trips to Montreal	80671
+/Travel/Trips by Destination/Trips to North America/Trips to Canada/Trips to Toronto	80688
+/Travel/Trips by Destination/Trips to North America/Trips to Canada/Trips to Vancouver	80689
+/Travel/Trips by Destination/Trips to North America/Trips to the US	80822
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Atlanta	80656
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Austin	80657
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Boston	80658
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to California	80828
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to California/Trips to Los Angeles	80668
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to California/Trips to Orange County, CA	80676
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to California/Trips to San Diego	80683
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to California/Trips to San Francisco Bay Area	80684
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Charlotte	80659
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Chicago	80660
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Dallas-Fort Worth	80661
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Denver	80662
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Detroit	80663
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Florida	80833
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Florida/Trips to Fort Lauderdale	80664
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Florida/Trips to Miami	80669
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Florida/Trips to Orlando	80677
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Florida/Trips to Tampa Bay Area	80687
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Hawaii	80665
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Houston	80666
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Las Vegas	80667
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Minneapolis-Saint Paul	80670
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Myrtle Beach & Grand Strand	80672
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Nashville	80673
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to New Orleans	80674
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to New York City	80675
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Philadelphia	80678
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Phoenix	80679
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Portland, OR	80680
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Salt Lake City	80681
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to San Antonio	80682
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Seattle	80685
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to St. Louis	80686
+/Travel/Trips by Destination/Trips to North America/Trips to the US/Trips to Washington, D.C.	80690
+/Travel/Trips by Destination/Trips to the Middle East & Africa	80609
+/Travel/Trips by Destination/Trips to the Middle East & Africa/Trips to Egypt	80651
+/Travel/Trips by Destination/Trips to the Middle East & Africa/Trips to Israel	80652
+/Travel/Trips by Destination/Trips to the Middle East & Africa/Trips to Morocco	80653
+/Travel/Trips by Destination/Trips to the Middle East & Africa/Trips to South Africa	80654
+/Travel/Trips by Destination/Trips to the Middle East & Africa/Trips to the United Arab Emirates	80655
+/Banking & Finance	93017
+/Banking & Finance/Avid Investors	92601
+/Beauty & Wellness	93040
+/Beauty & Wellness/Beauty Mavens	92505
+/Beauty & Wellness/Frequently Visits Salons	93009
+/Food & Dining	93002
+/Food & Dining/Coffee Shop Regulars	93007
+/Food & Dining/Cooking Enthusiasts	90800
+/Food & Dining/Cooking Enthusiasts/30 Minute Chefs	90801
+/Food & Dining/Cooking Enthusiasts/Aspiring Chefs	90802
+/Food & Dining/Fast Food Cravers	92900
+/Food & Dining/Foodies	92300
+/Food & Dining/Frequently Dines Out	93003
+/Food & Dining/Frequently Dines Out/Diners by Meal	93033
+/Food & Dining/Frequently Dines Out/Diners by Meal/Frequently Eats Breakfast Out	93004
+/Food & Dining/Frequently Dines Out/Diners by Meal/Frequently Eats Dinner Out	93005
+/Food & Dining/Frequently Dines Out/Diners by Meal/Frequently Eats Lunch Out	93006
+/Home & Garden	92946
+/Home & Garden/Do-It-Yourselfers	90700
+/Home & Garden/Home Decor Enthusiasts	92508
+/Lifestyles & Hobbies	92947
+/Lifestyles & Hobbies/Art & Theater Aficionados	91700
+/Lifestyles & Hobbies/Business Professionals	92913
+/Lifestyles & Hobbies/Family-Focused	91000
+/Lifestyles & Hobbies/Fashionistas	92504
+/Lifestyles & Hobbies/Frequently Attends Live Events	93008
+/Lifestyles & Hobbies/Green Living Enthusiasts	90600
+/Lifestyles & Hobbies/Nightlife Enthusiasts	92400
+/Lifestyles & Hobbies/Outdoor Enthusiasts	90100
+/Lifestyles & Hobbies/Pet Lovers	91100
+/Lifestyles & Hobbies/Pet Lovers/Cat Lovers	91101
+/Lifestyles & Hobbies/Pet Lovers/Dog Lovers	91102
+/Lifestyles & Hobbies/Shutterbugs	90900
+/Lifestyles & Hobbies/Thrill Seekers	90300
+/Media & Entertainment	93034
+/Media & Entertainment/Book Lovers	92923
+/Media & Entertainment/Comics & Animation Fans	92914
+/Media & Entertainment/Gamers	91600
+/Media & Entertainment/Gamers/Action Game Fans	92904
+/Media & Entertainment/Gamers/Adventure & Strategy Game Fans	92905
+/Media & Entertainment/Gamers/Casual & Social Gamers	91602
+/Media & Entertainment/Gamers/Driving & Racing Game Fans	92906
+/Media & Entertainment/Gamers/Hardcore Gamers	91601
+/Media & Entertainment/Gamers/Roleplaying Game Fans	92907
+/Media & Entertainment/Gamers/Shooter Game Fans	92908
+/Media & Entertainment/Gamers/Sports Game Fans	92909
+/Media & Entertainment/Movie Lovers	91800
+/Media & Entertainment/Movie Lovers/Action & Adventure Movie Fans	91801
+/Media & Entertainment/Movie Lovers/Comedy Movie Fans	91803
+/Media & Entertainment/Movie Lovers/Family Movie Fans	91802
+/Media & Entertainment/Movie Lovers/Horror Movie Fans	91804
+/Media & Entertainment/Movie Lovers/Romance & Drama Movie Fans	91805
+/Media & Entertainment/Movie Lovers/Sci-Fi & Fantasy Movie Fans	91806
+/Media & Entertainment/Movie Lovers/South Asian Film Fans	92916
+/Media & Entertainment/Music Lovers	91900
+/Media & Entertainment/Music Lovers/Blues Fans	91906
+/Media & Entertainment/Music Lovers/Classical Music Enthusiasts	91903
+/Media & Entertainment/Music Lovers/Country Music Fans	91904
+/Media & Entertainment/Music Lovers/Electronica & Dance Music Fans	91907
+/Media & Entertainment/Music Lovers/Folk & Traditional Music Enthusiasts	91908
+/Media & Entertainment/Music Lovers/Indie & Alternative Rock Fans	91912
+/Media & Entertainment/Music Lovers/Jazz Enthusiasts	91905
+/Media & Entertainment/Music Lovers/Metalheads	91910
+/Media & Entertainment/Music Lovers/Pop Music Fans	91901
+/Media & Entertainment/Music Lovers/Rap & Hip Hop Fans	91909
+/Media & Entertainment/Music Lovers/Rock Music Fans	91902
+/Media & Entertainment/Music Lovers/Spanish-Language Music Fans	91911
+/Media & Entertainment/Music Lovers/World Music Fans	92915
+/Media & Entertainment/TV Lovers	92800
+/Media & Entertainment/TV Lovers/Documentary & Nonfiction TV Fans	92801
+/Media & Entertainment/TV Lovers/Family Television Fans	92803
+/Media & Entertainment/TV Lovers/Game, Reality & Talk Show Fans	92804
+/Media & Entertainment/TV Lovers/Sci-Fi & Fantasy TV Fans	92805
+/Media & Entertainment/TV Lovers/TV Comedy Fans	92806
+/Media & Entertainment/TV Lovers/TV Drama Fans	92802
+/News & Politics	92949
+/News & Politics/News Junkies	92000
+/News & Politics/News Junkies/Business & Economic News Junkies	92002
+/News & Politics/News Junkies/Entertainment & Celebrity News Junkies	92006
+/News & Politics/News Junkies/Local News Junkies	92005
+/News & Politics/News Junkies/Men's Media Fans	92008
+/News & Politics/News Junkies/Political News Junkies	92702
+/News & Politics/News Junkies/Women's Media Fans	92007
+/News & Politics/News Junkies/World News Junkies	92001
+/Shoppers	92901
+/Shoppers/Bargain Hunters	92503
+/Shoppers/Luxury Shoppers	92501
+/Shoppers/Shopaholics	92500
+/Shoppers/Shoppers by Store Type	92952
+/Shoppers/Shoppers by Store Type/Convenience Store Shoppers	93014
+/Shoppers/Shoppers by Store Type/Department Store Shoppers	93015
+/Shoppers/Shoppers by Store Type/Grocery Shoppers	93016
+/Shoppers/Shoppers by Store Type/Superstore Shoppers	93011
+/Shoppers/Value Shoppers	92502
+/Sports & Fitness	92950
+/Sports & Fitness/Health & Fitness Buffs	90400
+/Sports & Fitness/Sports Fans	90200
+/Sports & Fitness/Sports Fans/American Football Fans	90201
+/Sports & Fitness/Sports Fans/Australian Football Fans	92919
+/Sports & Fitness/Sports Fans/Baseball Fans	90204
+/Sports & Fitness/Sports Fans/Basketball Fans	90202
+/Sports & Fitness/Sports Fans/Boating & Sailing Enthusiasts	90209
+/Sports & Fitness/Sports Fans/Cricket Enthusiasts	92917
+/Sports & Fitness/Sports Fans/Cycling Enthusiasts	90217
+/Sports & Fitness/Sports Fans/Fight & Wrestling Fans	92902
+/Sports & Fitness/Sports Fans/Golf Enthusiasts	90206
+/Sports & Fitness/Sports Fans/Hockey Fans	90205
+/Sports & Fitness/Sports Fans/Motor Sports Enthusiasts	92903
+/Sports & Fitness/Sports Fans/Racquetball Enthusiasts	90208
+/Sports & Fitness/Sports Fans/Rugby Enthusiasts	92918
+/Sports & Fitness/Sports Fans/Running Enthusiasts	90216
+/Sports & Fitness/Sports Fans/Skiing Enthusiasts	90218
+/Sports & Fitness/Sports Fans/Soccer Fans	90203
+/Sports & Fitness/Sports Fans/Swimming Enthusiasts	90212
+/Sports & Fitness/Sports Fans/Tennis Enthusiasts	90207
+/Sports & Fitness/Sports Fans/Water Sports Enthusiasts	90211
+/Sports & Fitness/Sports Fans/Winter Sports Enthusiasts	90210
+/Technology	92948
+/Technology/Mobile Enthusiasts	92910
+/Technology/Social Media Enthusiasts	92911
+/Technology/Technophiles	92507
+/Travel	92945
+/Travel/Business Travelers	92924
+/Travel/Travel Buffs	91500
+/Travel/Travel Buffs/Beachbound Travelers	91504
+/Travel/Travel Buffs/Family Vacationers	91502
+/Travel/Travel Buffs/Luxury Travelers	91501
+/Travel/Travel Buffs/Snowbound Travelers	91505
+/Vehicles & Transportation	93028
+/Vehicles & Transportation/Auto Enthusiasts	91401
+/Vehicles & Transportation/Auto Enthusiasts/Motorcycle Enthusiasts	91300
+/Vehicles & Transportation/Auto Enthusiasts/Performance & Luxury Vehicle Enthusiasts	91400
+/Vehicles & Transportation/Auto Enthusiasts/Truck & SUV Enthusiasts	92912

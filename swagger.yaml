@@ -1,0 +1,1384 @@
+swagger: "2.0"
+consumes:
+  - application/json
+produces:
+  - application/json
+info:
+  description: vtm app
+  title: vtm app
+  version: 0.0.2
+schemes:
+  - http
+#securityDefinitions:
+#  key:
+#    type: apiKey
+#    in: header
+#    name: X-Auth-Token
+#security:
+#  - key: []
+paths:
+  /folders:
+    get:
+      parameters:
+        - name: type
+          in: query
+          type: string
+          enum:
+            - video
+            - audience
+            - matching
+      responses:
+        200:
+          description: get folders
+          schema:
+            $ref: "#/definitions/GetFoldersResp"
+        204:
+          description: no content
+        500:  
+          description: Internal Server Error
+    post:
+      operationId: createFolders
+      parameters:
+        - name: folder
+          in: body
+          schema:
+            $ref: "#/definitions/CreateFolderReq"
+      responses:
+        201:
+          description: create folder
+          schema:
+            $ref: "#/definitions/CreateFolderResp"
+        409:
+          description: Folder already exist
+        500:  
+          description: Internal Server Error
+  /folders/match:
+    get:
+      operationId: listMatchingFolders
+      responses:
+        200:
+          description: list folders
+          schema:
+            $ref: "#/definitions/ListMatchingFoldersResp"
+        204:
+          description: no content
+        500:  
+          description: Internal Server Error
+    post:
+      operationId: matchFolders
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: "#/definitions/MatchFoldersReq"
+      responses:
+        200:
+          description: match folders
+          schema:
+            $ref: "#/definitions/MatchFoldersResp"
+        400:
+          description: bad request
+          schema:
+            $ref: "#/definitions/ErrorMess"
+        409:
+          description: Match already exist
+        500:  
+          description: Internal Server Error
+  /folders/match/{id}:
+    delete:
+      parameters:
+        - name: id
+          in: path
+          type: integer
+          required: true
+      responses:
+        200:
+          description: delete matching folder
+          schema:
+            $ref: "#/definitions/ErrorMess"
+        204:
+          description: no content
+        500:  
+          description: Internal Server Error        
+  /folders/{id}:
+    get:
+      parameters:
+        - name: id
+          in: path
+          type: integer
+          required: true
+      responses:
+        200:
+          description: show folder
+          schema:
+            $ref: "#/definitions/ShowFolderResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+    patch:
+      parameters:
+        - name: id
+          in: path
+          type: integer
+          required: true
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: "#/definitions/CreateFolderReq"
+      responses:
+        200:
+          description: update folder
+          schema:
+            $ref: "#/definitions/CreateFolderResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+
+    delete:
+      parameters:
+        - name: id
+          in: path
+          type: integer
+          required: true
+      responses:
+        200:
+          description: delete folder
+          schema:
+            $ref: "#/definitions/ShowFolderResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /campaign:
+    get:
+      parameters:
+        - name: limit
+          in: query
+          type: string
+      responses:
+        200:
+          description: Get Dick sucker
+          schema:
+            $ref: "#/definitions/GetCampaignResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+    post:
+      operationId: createCampaign
+      parameters:
+        - name: body
+          in: body
+          schema:
+            $ref: "#/definitions/CreateCampaignReq"
+      responses:
+        200:
+          description: create campaign
+          schema:
+            $ref: "#/definitions/CreateCampaignResp"
+        409:
+          description: Campaign already exist
+        500:  
+          description: Internal Server Error
+  /campaign/{id}:
+    get:
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: integer
+      responses:
+        200:
+          description: show campaign
+          schema:
+            $ref: "#/definitions/ShowCampaignResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+    patch:
+      parameters:
+        - name: id
+          in: path
+          type: integer
+          required: true
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: "#/definitions/CreateCampaignReq"
+      responses:
+        200:
+          description: update campaign
+          schema:
+            $ref: "#/definitions/CreateCampaignResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+    delete:
+      parameters:
+        - name: id
+          in: path
+          type: integer
+          required: true
+      responses:
+        200:
+          description: delete campaign
+          schema:
+            $ref: "#/definitions/ErrorMess"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /adgroup/tech:
+    post:
+      operationId: createTechAdGroup
+      parameters:
+        - name: body
+          in: body
+          schema:
+            $ref: "#/definitions/CreateTechAdGroupReq"
+      responses:
+        200:
+          description: create Tech Adgroup
+          schema:
+            $ref: "#/definitions/CreateTechAdGroupResp"
+        409:
+          description: TechAdGroup already exis
+  /adgroup:
+    get:
+      parameters:
+        - name: folderID
+          in: query
+          type: string
+      responses:
+        200:
+          description: get adgroups
+          schema:
+            $ref: "#/definitions/GetAdGroupResp"
+
+    post:
+      operationId: createAdGroup
+      parameters:
+        - name: body
+          in: body
+          schema:
+            $ref: "#/definitions/CreateAdGroupReq"
+      responses:
+        200:
+          description: create adgroup
+          schema:
+            $ref: "#/definitions/CreateAdGroupResp"
+        409:
+          description: AdGroup already exis
+  /adgroup/{id}:
+    get:
+      operationId: showAdgroup
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: integer
+      responses:
+        200:
+          description: show adgroup
+          schema:
+            $ref: "#/definitions/ShowAdGroupResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+    delete:
+      operationId: deleteAdgroup
+      parameters:
+          - name: id
+            in: path
+            required: true
+            type: integer
+      responses:
+        200:
+          description: delete AdGroup 
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /ad:
+    get:
+      operationId: getAd
+      parameters:
+        - name: limit
+          in: query
+          type: string
+      responses:
+        200:
+          description: create campaign
+          schema:
+            $ref: "#/definitions/GetAdResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+    post:
+      operationId: createAd
+      parameters:
+        - name: body
+          in: body
+          schema:
+            $ref: "#/definitions/CreateAdReq"
+      responses:
+        200:
+          description: create campaign
+          schema:
+            $ref: "#/definitions/CreateAdResp"
+        409:
+          description: CampaignAd already exist
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /settings/{list_name}:
+    get:
+      operationId: getSettings
+      parameters:
+        - name: list_name
+          in: path
+          required: true
+          type: string
+      responses:
+        200:
+          description: get settings by list name
+          schema:
+            $ref: "#/definitions/GetSettingsResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /settings/object:
+    get:
+      parameters:
+        - name: all
+          in: query
+          type: string
+      responses:
+        200:
+          description: get
+          schema:
+            $ref: "#/definitions/GetSettingsObjectResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /settings/tech:
+    get:
+      parameters:
+        - name: all
+          in: query
+          type: string
+      responses:
+        200:
+          description: get
+          schema:
+            $ref: "#/definitions/GetSettingsObjectResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /video:
+    post:
+      summary: Uploads a file.
+      consumes:
+        - multipart/form-data
+      parameters:
+        - name: uploadFile
+          in: formData
+          description: upload
+          type: array
+          items:
+            type: string
+            format: binary
+        #          x-mimetype: video/mp4
+        - name: folderID
+          in: formData
+          description: folderID
+          type: integer
+        - name: creativeID
+          in: formData
+          description: creativeID
+          type: string
+        - name: title
+          in: formData
+          description: title
+          type: string
+        - name: description
+          in: formData
+          description: title
+          type: string
+      #          schema:
+      #            $ref: "#/definitions/CreateVideoReq"
+      responses:
+        200:
+          description: Create video
+          schema:
+              $ref: "#/definitions/ListVideosResp"
+        409:
+          description: Video already exist
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /video/folders/{folderID}:
+    get:
+      parameters:
+        - name: folderID
+          in: path
+          type: integer
+          required: true
+      operationId: ListVideos
+      responses:
+        200:
+          description: list videos
+          schema:
+            $ref: "#/definitions/ListVideosResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /video/upload/{folderID}:
+    post:
+      operationId: uploadVideo
+      parameters:
+        - name: folderID
+          in: path
+          type: integer
+          required: true
+      responses:
+        200:
+          description: Upload video
+        409:
+          description: Video already exist
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /csv:
+    get:
+      produces:
+        - application/octet-stream
+      parameters:
+        - name: folderID
+          in: query
+          type: integer
+        - name: campaignID
+          in: query
+          type: integer
+      operationId: getCSV
+      responses:
+        200:
+          description: get csv
+          schema:
+            $ref: "#/definitions/GetFileResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /export/targets:
+    get:
+      produces:
+        - application/octet-stream
+      parameters:
+        - name: folderID
+          in: query
+          type: integer
+        - name: campaignID
+          in: query
+          type: integer
+      operationId: getTargets
+      responses:
+        200:
+          description: get csv
+          schema:
+            $ref: "#/definitions/GetFileResp"
+        204:
+          description: No Content
+        500:  
+          description: Internal Server Error
+  /import/targets:
+    post:
+      summary: Uploads targets file.
+      consumes:
+        - multipart/form-data
+      parameters:
+        - name: uploadFile
+          in: formData
+          description: file
+          type: file
+      responses:
+        200:
+          description: import targets
+        500:  
+          description: Internal Server Error
+
+definitions:
+  ErrorMess: &ErrorMess
+    type: string
+    x-omitempty: true
+  CreateCampaignReq:
+    type: object
+    properties:
+      folderID:
+        type: integer
+      account:
+        type: string
+      campaign:
+        type: string
+      budget:
+        type: number
+      budgetType:
+        type: string
+      campaignType:
+        type: string
+      networks:
+        type: string
+      languages:
+        type: string
+      bidStrategyType:
+        type: string
+      bidStrategyName:
+        type: string
+      startDate:
+        type: string
+      endDate:
+        type: string
+      adSchedule:
+        type: string
+      adRotation:
+        type: string
+      inventoryType:
+        type: string
+      deliveryMethod:
+        type: string
+      targetingMethod:
+        type: string
+      exclusionMethod:
+        type: string
+      dsaWebsite:
+        type: string
+      dsaLanguage:
+        type: string
+      dsaTargetingSource:
+        type: string
+      dsaPageFeeds:
+        type: string
+      flexibleReach:
+        type: string
+      location:
+        type: string
+      maxCPC:
+        type: number
+      maxCPM:
+        type: number
+      targetCPA:
+        type: string
+      maxCPV:
+        type: number
+      targetCPM:
+        type: number
+
+  CreateAdGroupResp:
+    type: object
+    properties:
+      data:
+        type: array
+        items:
+          type: object
+          properties:
+            id:
+              type: integer
+            folderID:
+              type: integer
+            campaignID:
+              type: integer
+            techAdGroupID:
+              type: integer
+            keyword:
+              type: array
+              items:
+                type: string
+            adGroupID:
+              type: array
+              items:
+                type: string
+            gender:
+              type: array
+              items:
+                type: string
+            age:
+              type: array
+              items:
+                type: string
+            channelID:
+              type: array
+              items:
+                type: string
+            audience:
+              type: array
+              items:
+                type: string
+            customAudience:
+              type: array
+              items:
+                type: string
+            devices:
+              type: array
+              items:
+                type: string
+            frequency:
+              type: array
+              items:
+                type: string
+            placement:
+              type: array
+              items:
+                type: string
+            topics:
+              type: array
+              items:
+                type: string
+            interest:
+              type: array
+              items:
+                type: string
+            location:
+              type: array
+              items:
+                type: string
+            languages:
+              type: array
+              items:
+                type: string
+            adSchedule:
+              type: array
+              items:
+                type: string
+
+  CreateCampaignResp:
+    type: object
+    properties:
+      data:
+        type: object
+        x-omitempty: true
+        properties:
+          campaignID:
+            type: integer
+          techAdGroupID:
+            type: integer
+
+  GetCampaignResp:
+    type: object
+    properties:
+      data:
+        type: array
+        items:
+          type: object
+          properties:
+            id:
+              type: integer
+            name:
+              type: string
+
+  GetFoldersResp:
+    type: object
+    properties:
+
+      data:
+        type: array
+        items:
+          type: object
+          properties:
+            id:
+              type: integer
+            name:
+              type: string
+            type:
+              type: string
+            rulesMask:
+              type: string
+            BLSSplit:
+              type: boolean
+            frequency:
+              type: string
+            createdAt:
+              type: string
+
+  CreateFolderReq:
+    type: object
+    properties:
+      name:
+        type: string
+        minLength: 1
+        maxLength: 255
+      type:
+        type: string
+      rulesMask:
+        type: string
+        minLength: 12
+        maxLength: 15
+      BLSSplit:
+        type: boolean
+      frequency:
+        type: string
+
+  CreateFolderResp:
+    type: object
+    properties:
+      data:
+        type: object
+        x-omitempty: true
+        properties:
+          id:
+            type: integer
+          name:
+            type: string
+          type:
+            type: string
+          rulesMask:
+            type: string
+          BLSSplit:
+            type: boolean
+          frequency:
+            type: string
+
+  ShowCampaignResp:
+    type: object
+    properties:
+      data:
+        x-omitempty: true
+        type: object
+        properties:
+          id:
+            type: integer
+          account:
+            type: string
+          campaign:
+            type: string
+          budget:
+            type: number
+          budgetType:
+            type: string
+          campaignType:
+            type: string
+          networks:
+            type: string
+          languages:
+            type: string
+          bidStrategyType:
+            type: string
+          bidStrategyName:
+            type: string
+          startDate:
+            type: string
+          endDate:
+            type: string
+          adSchedule:
+            type: string
+          adRotation:
+            type: string
+          inventoryType:
+            type: string
+          deliveryMethod:
+            type: string
+          targetingMethod:
+            type: string
+          exclusionMethod:
+            type: string
+          dsaWebsite:
+            type: string
+          dsaLanguage:
+            type: string
+          dsaTargetingSource:
+            type: string
+          dsaPageFeeds:
+            type: string
+          flexibleReach:
+            type: string
+
+  GetFileResp:
+    type: string
+    format: binary
+
+
+  GetAdGroupResp:
+    type: object
+    properties:
+      data:
+        type: array
+        items:
+          type: object
+          properties:
+            id:
+              type: integer
+            folderID:
+              type: integer
+            campaignID:
+              type: integer
+            techAdGroupID:
+              type: integer
+            keyword:
+              type: array
+              items:
+                type: string
+            adGroupID:
+              type: array
+              items:
+                type: string
+            gender:
+              type: array
+              items:
+                type: string
+            age:
+              type: array
+              items:
+                type: string
+            channelID:
+              type: array
+              items:
+                type: string
+            audience:
+              type: array
+              items:
+                type: string
+            customAudience:
+              type: array
+              items:
+                type: string
+            devices:
+              type: array
+              items:
+                type: string
+            frequency:
+              type: array
+              items:
+                type: string
+            placement:
+              type: array
+              items:
+                type: string
+            topics:
+              type: array
+              items:
+                type: string
+            interest:
+              type: array
+              items:
+                type: string
+            location:
+              type: array
+              items:
+                type: string
+            languages:
+              type: array
+              items:
+                type: string
+            adSchedule:
+              type: array
+              items:
+                type: string
+
+
+  ShowFolderResp:
+    type: object
+    properties:
+      data:
+        type: object
+        x-omitempty: true
+        properties:
+          id:
+            type: integer
+          name:
+            type: string
+          rulesMask:
+            type: string
+          type:
+            type: string
+          createdAt:
+            type: string
+          BLSSplit:
+            type: boolean
+          frequency:
+            type: string
+          campaignID:
+            type: integer
+          techAdGroupID:
+            type: integer
+
+  CreateAdGroupReq:
+    type: array
+    items:
+      type: object
+      properties:
+        id:
+          type: integer
+        folderID:
+          type: integer
+        campaignID:
+          type: integer
+        techAdGroupID:
+          type: integer
+        keyword:
+          type: array
+          items:
+            type: string
+        adGroupID:
+          type: array
+          items:
+            type: string
+        gender:
+          type: array
+          items:
+            type: string
+        age:
+          type: array
+          items:
+            type: string
+        channelID:
+          type: array
+          items:
+            type: string
+        audience:
+          type: array
+          items:
+            type: string
+        customAudience:
+          type: array
+          items:
+            type: string
+        devices:
+          type: array
+          items:
+            type: string
+        frequency:
+          type: array
+          items:
+            type: string
+        placement:
+          type: array
+          items:
+            type: string
+        topics:
+          type: array
+          items:
+            type: string
+        interest:
+          type: array
+          items:
+            type: string
+        location:
+          type: array
+          items:
+            type: string
+        languages:
+          type: array
+          items:
+            type: string
+        adSchedule:
+          type: array
+          items:
+            type: string
+
+
+  GetAdResp:
+    type: object
+    properties:
+      data:
+        type: array
+        items:
+          type: object
+          properties:
+            id:
+              type: integer
+            adGroupId:
+              type: integer
+            adName:
+              type: string
+            videoID:
+              type: string
+            displayURL:
+              type: string
+            campaignStatus:
+              type: string
+            adGroupStatus:
+              type: string
+            status:
+              type: string
+            approvalStatus:
+              type: string
+            comment:
+              type: string
+            finalUrl:
+              type: string
+            finalMobileUrl:
+              type: string
+            bumperAd:
+              type: string
+
+
+
+  CreateAdReq:
+    type: object
+    properties:
+      data:
+        type: object
+        x-omitempty: true
+        properties:
+          adGroupId:
+            type: integer
+          adName:
+            type: string
+          videoID:
+            type: string
+          displayURL:
+            type: string
+          campaignStatus:
+            type: string
+          adGroupStatus:
+            type: string
+          status:
+            type: string
+          approvalStatus:
+            type: string
+          comment:
+            type: string
+          finalUrl:
+            type: string
+          finalMobileUrl:
+            type: string
+          bumperAd:
+            type: string
+
+
+  CreateTechAdGroupReq:
+    type: object
+    properties:
+      data:
+        type: object
+        properties:
+          campaignID:
+            type: integer
+          adGroup:
+            type: string
+          #TARGET CPC etc MOVE TO CAMPAIGN
+          targetROAS:
+            type: string
+          desktopBidModifier:
+            type: string
+          mobileBidModifier:
+            type: string
+          tabletBidModifier:
+            type: string
+          tVScreenBidModifier:
+            type: string
+          topContentBidModifier:
+            type: string
+          displayNetwork:
+            type: string
+          customBidType:
+            type: string
+          firstPageBid:
+            type: string
+          topOfPageBid:
+            type: string
+          targetingOptimization:
+            type: string
+          contentKeywords:
+            type: string
+          adGroupType:
+            type: string
+          trackingTemplate:
+            type: string
+          finalURLSuffix:
+            type: string
+          customParameters:
+            type: string
+          bidModifier:
+            type: string
+          destinationURL:
+            type: string
+          criterionType:
+            type: string
+          reach:
+            type: string
+          feed:
+            type: string
+          radius:
+            type: string
+          unit:
+            type: string
+
+
+
+  CreateTechAdGroupResp:
+    type: object
+    properties:
+      data:
+        type: object
+        x-omitempty: true
+        properties:
+          id:
+            type: integer
+          campaignID:
+            type: integer
+          adGroup:
+            type: string
+          maxCPC:
+            type: number
+          maxCPM:
+            type: number
+          targetCPA:
+            type: string
+          maxCPV:
+            type: number
+          targetCPM:
+            type: number
+          targetROAS:
+            type: string
+          desktopBidModifier:
+            type: string
+          mobileBidModifier:
+            type: string
+          tabletBidModifier:
+            type: string
+          tVScreenBidModifier:
+            type: string
+          topContentBidModifier:
+            type: string
+          displayNetwork:
+            type: string
+          customBidType:
+            type: string
+          firstPageBid:
+            type: string
+          topOfPageBid:
+            type: string
+          targetingOptimization:
+            type: string
+          contentKeywords:
+            type: string
+          adGroupType:
+            type: string
+          trackingTemplate:
+            type: string
+          finalURLSuffix:
+            type: string
+          customParameters:
+            type: string
+          bidModifier:
+            type: string
+          destinationURL:
+            type: string
+          criterionType:
+            type: string
+          reach:
+            type: string
+          feed:
+            type: string
+          radius:
+            type: string
+          unit:
+            type: string
+
+
+
+  CreateAdResp:
+    type: object
+    properties:
+      data:
+        type: object
+        x-omitempty: true
+        properties:
+          id:
+            type: integer
+          adGroupId:
+            type: integer
+          adName:
+            type: string
+          videoID:
+            type: string
+          displayURL:
+            type: string
+          campaignStatus:
+            type: string
+          adGroupStatus:
+            type: string
+          status:
+            type: string
+          approvalStatus:
+            type: string
+          comment:
+            type: string
+          finalUrl:
+            type: string
+          finalMobileUrl:
+            type: string
+          bumperAd:
+            type: string
+
+  ShowAdGroupResp:
+    type: object
+    properties:
+      data:
+        type: object
+        x-omitempty: true
+        properties:
+          id:
+            type: integer
+          folderID:
+            type: integer
+          campaignID:
+            type: integer
+          adGroup:
+            type: string
+          maxCPC:
+            type: number
+          maxCPM:
+            type: number
+          targetCPA:
+            type: string
+          maxCPV:
+            type: number
+          targetCPM:
+            type: number
+          targetROAS:
+            type: string
+          desktopBidModifier:
+            type: string
+          mobileBidModifier:
+            type: string
+          tabletBidModifier:
+            type: string
+          tvScreenBidModifier:
+            type: string
+          topContentBidModifier:
+            type: string
+          displayNetworkCustomBidType:
+            type: string
+          targetingOptimization:
+            type: string
+          contentKeywords:
+            type: string
+          adGroupType:
+            type: string
+          trackingtemplate:
+            type: string
+          finalURLSuffix:
+            type: string
+          customParameters:
+            type: string
+          age:
+            type: string
+          bidModifier:
+            type: string
+          destinationURL:
+            type: string
+          criterionType:
+            type: string
+          gender:
+            type: string
+          adGroupID:
+            type: string
+          location:
+            type: string
+          reach:
+            type: string
+          feed:
+            type: string
+          radius:
+            type: string
+          unit:
+            type: string
+          nonskippableAd:
+            type: string
+
+
+  ListMatchingFoldersResp:
+    type: array
+    items:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        videoFolderID:
+          type: integer
+        videoFolderName:
+          type: string
+        audienceFolderID:
+          type: integer
+        audienceFolderName:
+          type: string
+
+  MatchFoldersReq:
+    type: object
+    properties:
+      name:
+        type: string
+      videoFolderID:
+        type: integer
+      audienceFolderID:
+        type: integer
+
+
+  MatchFoldersResp:
+    type: object
+    properties:
+      data:
+        type: object
+        properties:
+          id:
+            type: integer
+          name:
+            type: string
+          videoFolderID:
+            type: integer
+          audienceFolderID:
+            type: integer
+          videoFolderName:
+            type: string
+          audienceFolderName:
+            type: string
+
+  GetSettingsResp:
+    type: object
+  GetSettingsObjectResp:
+    type: array
+    items:
+      type: object
+      properties:
+        key:
+          type: string
+        name:
+          type: string
+        options:
+          type: object
+  ListVideosResp:
+    type: array
+    items:
+      type: object
+      properties:
+        adgroupID:
+          type: integer
+        folderID:
+          type: integer
+        creativeID:
+          type: string
+        youtubeID:
+          type: string
+        title:
+          type: string
+        description:
+          type: string
